@@ -3,19 +3,6 @@ const path = require('path')
 const app = express()
 const moviesList = [
     {
-      "Title":"Titanic",
-      "Released":"1997-12-19",
-      "Runtime":194,
-      "Genres":["Drama", "Romance"],
-      "Directors":["James Cameron"],
-      "Writers":["James Cameron"],
-      "Actors":["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
-      "Plot":"A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
-      "Poster":"https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore":75,
-      "imdbRating":8.0
-    },
-    {
       "Title":"Predator",
       "Released":"1987-06-12",
       "Runtime":107,
@@ -27,6 +14,19 @@ const moviesList = [
       "Poster":"https://m.media-amazon.com/images/M/MV5BOWEzMDI0MTUtMjQ0Yy00MGRhLWI4YjAtZTgzZTM3NTYxZGJkXkEyXkFqcGc@._V1_SX300.jpg",
       "Metascore":47,
       "imdbRating":7.8
+    },
+        {
+      "Title":"Titanic",
+      "Released":"1997-12-19",
+      "Runtime":194,
+      "Genres":["Drama", "Romance"],
+      "Directors":["James Cameron"],
+      "Writers":["James Cameron"],
+      "Actors":["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+      "Plot":"A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore":75,
+      "imdbRating":8.0
     },
     {
       "Title":"Avatar",
